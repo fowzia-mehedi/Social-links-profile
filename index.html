@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body  {
+      background-color:hsl(0, 0%, 8%) ;
+      color:white;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+     margin: 0;
+     padding: 0;
+    }
+    .container {
+      background-color:hsl(0, 0%, 12%) ;
+      width:20% ;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2.5rem;
+      border-radius: 5%;
+    }
+    
+
+    
+    img {
+      border-radius: 50%;
+      width: 25%;
+    }
+    h1 {
+      margin-bottom: 0.3125rem;
+      font-size:x-large;
+      font-weight:600 ;
+    }
+    h2 {
+      font-size:small;
+      margin-top: 0;
+      color:hsl(75, 94%, 57%) ;
+    }
+    p {
+      font-size: 0.875rem;
+    }
+    button {
+      width: 100%;
+      height: 3.4375rem;
+      margin-top: 0.625rem;
+      margin-bottom:0.3125rem;
+      background-color:hsl(0, 0%, 20%) ;
+      color: white;
+      border-radius: 5%;
+      border: 0;
+      font-weight:600;
+    }
+    @media(max-width:375px) {
+     .container {
+      width: 70%;
+     }
+    }
+  </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+ <div class="container">
+   
+     <img src="./assets/images/avatar-jessica.jpeg" alt="">
+     <h1>Jessica Randall</h1>
+     <h2>London, United Kingdom</h2>
+     <p> "Front-end developer and avid reader."</p>
+
+     <button>GitHub</button>
+     <button>Frontend Mentor</button>
+     <button>LinkedIn</button>
+     <button>Twitter</button>
+     <button>Instagram</button>
+
+     
+   <div class="attribution">
+     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+     Coded by <a href="#">Your Name Here</a>.
+   </div>
+  </div>
+</body>
+</html>
